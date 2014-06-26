@@ -1,0 +1,16 @@
+@relation tic-tac-toe
+@attribute 1 {0,1,2}
+@attribute 2 {0,1,2}
+@attribute 3 {0,1,2}
+@attribute 4 {0,1,2}
+@attribute 5 {0,1,2}
+@attribute 6 {0,1,2}
+@attribute 7 {0,1,2}
+@attribute 8 {0,1,2}
+@attribute 9 {0,1,2}
+@attribute class {0,1}
+@data
+0,1,0,1,0,0,1,0,1,0
+1,0,1,0,0,1,0,1,0,0
+0,0,1,1,1,0,0,1,0,0
+0,1,1,1,0,0,0,0,1,0

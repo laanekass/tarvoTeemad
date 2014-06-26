@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="dataFile" size="1195,584" id="ruleOrderer.splitter.dataFile" metadata="uml2-1.0" initialized="true" scrolledY="-20" tag="1000" key="32303037303533312D313030302052756C654F7264657265722F6568656C6D6169">
+  <children xsi:type="editmodel:ClassEditModel" name="SplitIntoTwoFiles" location="105,171" size="185,175" id="ruleOrderer.splitter.dataFile/SplitIntoTwoFiles" runTimeClassModel="splitIntoTwo(Ljava.lang.String;D),writeSplittedFiles(Ljava.util.ArrayList;Ljava.util.ArrayList;Ljava.lang.String;Ljava.lang.String;),firstFile,data,splitIntoTwo(Ljava.lang.String;DLjava.lang.String;Ljava.lang.String;),header,secondFile">
+    <children xsi:type="editmodel:CompartmentEditModel" size="162,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="data" id="ruleOrderer.splitter.dataFile/SplitIntoTwoFiles#data"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="firstFile" id="ruleOrderer.splitter.dataFile/SplitIntoTwoFiles#firstFile"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="header" id="ruleOrderer.splitter.dataFile/SplitIntoTwoFiles#header"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="secondFile" location="9,86" id="ruleOrderer.splitter.dataFile/SplitIntoTwoFiles#secondFile"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="112,54">
+      <children xsi:type="editmodel:MethodEditModel" name="splitIntoTwo" id="ruleOrderer.splitter.dataFile/SplitIntoTwoFiles#splitIntoTwo(Ljava.lang.String;DLjava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="splitIntoTwo" id="ruleOrderer.splitter.dataFile/SplitIntoTwoFiles#splitIntoTwo(Ljava.lang.String;D)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="writeSplittedFiles" id="ruleOrderer.splitter.dataFile/SplitIntoTwoFiles#writeSplittedFiles(Ljava.util.ArrayList;Ljava.util.ArrayList;Ljava.lang.String;Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="ruleOrderer.splitter.dataFile/SplitIntoTwoFiles-Soyatec::Implement->ruleOrderer.splitter/Splitter" source="//@children.0" target="//@children.2" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Implement»" size="59,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="159,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="24,95"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="ruleOrderer.splitter.dataFile/SplitIntoTwoFiles-Soyatec::Import->ruleOrderer.writer.dataFile/WriteToFile*ruleOrderer.splitter.dataFile/SplitIntoTwoFiles-Standard::Instantiate->ruleOrderer.writer.dataFile/WriteToFile*ruleOrderer.splitter.dataFile/SplitIntoTwoFiles-Standard::Call->ruleOrderer.writer.dataFile/WriteToFile" source="//@children.0" target="//@children.3" targetEnd="//@children.0/@sourceConnections.1/@children.2" label="//@children.0/@sourceConnections.1/@children.0" sourceEnd="//@children.0/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Call, Import»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="30,175" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="120,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="SplitIntoTwoArffData" location="345,180" size="173,157" id="ruleOrderer.splitter.dataFile/SplitIntoTwoArffData" runTimeClassModel="writeSplittedFiles(Ljava.util.ArrayList;Ljava.util.ArrayList;Ljava.lang.String;Ljava.lang.String;),secondArffData,splitIntoTwo(LruleOrderer.dataTypes.arff.ArffData;D),getFirstArffData(),getSecondArffData(),firstArffData">
+    <children xsi:type="editmodel:CompartmentEditModel" size="145,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="firstArffData" id="ruleOrderer.splitter.dataFile/SplitIntoTwoArffData#firstArffData"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="secondArffData" id="ruleOrderer.splitter.dataFile/SplitIntoTwoArffData#secondArffData"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="124,72">
+      <children xsi:type="editmodel:MethodEditModel" name="getFirstArffData" id="ruleOrderer.splitter.dataFile/SplitIntoTwoArffData#getFirstArffData()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSecondArffData" id="ruleOrderer.splitter.dataFile/SplitIntoTwoArffData#getSecondArffData()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="splitIntoTwo" id="ruleOrderer.splitter.dataFile/SplitIntoTwoArffData#splitIntoTwo(LruleOrderer.dataTypes.arff.ArffData;D)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="writeSplittedFiles" id="ruleOrderer.splitter.dataFile/SplitIntoTwoArffData#writeSplittedFiles(Ljava.util.ArrayList;Ljava.util.ArrayList;Ljava.lang.String;Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="ruleOrderer.splitter.dataFile/SplitIntoTwoArffData-Standard::Instantiate->ruleOrderer.dataTypes.arff/ArffData*ruleOrderer.splitter.dataFile/SplitIntoTwoArffData-Standard::Call->ruleOrderer.dataTypes.arff/ArffData*ruleOrderer.splitter.dataFile/SplitIntoTwoArffData-Soyatec::Import->ruleOrderer.dataTypes.arff/ArffData" source="//@children.1" target="//@children.4" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Call, Import»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="123,157" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="48,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="ruleOrderer.splitter.dataFile/SplitIntoTwoArffData-Soyatec::Implement->ruleOrderer.splitter/Splitter" source="//@children.1" target="//@children.2" targetEnd="//@children.1/@sourceConnections.1/@children.2" label="//@children.1/@sourceConnections.1/@children.0" sourceEnd="//@children.1/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Implement»" size="59,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="14,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="119,95"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.0/@sourceConnections.0 //@children.1/@sourceConnections.1" name="Splitter" location="240,-15" size="135,95" id="ruleOrderer.splitter/Splitter">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="112,18">
+      <children xsi:type="editmodel:MethodEditModel" name="writeSplittedFiles" id="ruleOrderer.splitter/Splitter#writeSplittedFiles(Ljava.util.ArrayList;Ljava.util.ArrayList;Ljava.lang.String;Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.1" name="WriteToFile" location="15,435" size="151,99" id="ruleOrderer.writer.dataFile/WriteToFile">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="87,36">
+      <children xsi:type="editmodel:MethodEditModel" name="WriteToFile" id="ruleOrderer.writer.dataFile/WriteToFile#WriteToFile()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="creatOutput" id="ruleOrderer.writer.dataFile/WriteToFile#creatOutput(Ljava.lang.String;Ljava.util.ArrayList;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.0" name="ArffData" location="420,390" size="252,243" id="ruleOrderer.dataTypes.arff/ArffData">
+    <children xsi:type="editmodel:CompartmentEditModel" size="229,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="header" id="ruleOrderer.dataTypes.arff/ArffData#header"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="headerList" id="ruleOrderer.dataTypes.arff/ArffData#headerList"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="value" id="ruleOrderer.dataTypes.arff/ArffData#value"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="valuesList" id="ruleOrderer.dataTypes.arff/ArffData#valuesList"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="117,108">
+      <children xsi:type="editmodel:MethodEditModel" name="getArffHeaderList" id="ruleOrderer.dataTypes.arff/ArffData#getArffHeaderList()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getArffValuesList" id="ruleOrderer.dataTypes.arff/ArffData#getArffValuesList()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setArffHeader" id="ruleOrderer.dataTypes.arff/ArffData#setArffHeader(LruleOrderer.dataTypes.arff.ArffHeaderAttribute;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setArffHeaderList" id="ruleOrderer.dataTypes.arff/ArffData#setArffHeaderList(Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setArffValue" id="ruleOrderer.dataTypes.arff/ArffData#setArffValue(LruleOrderer.dataTypes.arff.ArffValues;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setArffValuesList" id="ruleOrderer.dataTypes.arff/ArffData#setArffValuesList(Ljava.util.ArrayList;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" interactive="false" level="-1" showScope="InPackage" properties="wireOptions=1;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

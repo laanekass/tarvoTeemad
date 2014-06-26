@@ -1,0 +1,14 @@
+lensesTrainingData lensesTestingData.txt 
+timeStamp: 2012-10-10 22:03:59.235
+TRAIN TTCLASSIFIER
+Correct: 6
+InCorrect: 2
+Unclassified: 0
+fMeasure(0): 1.0
+fMeasure(1): NaN
+Confusion matrix data: 
+2.0; 0.0; 0.0; 
+0.0; 0.0; 6.0; 
+*************************************************
+
+No rules to test with other algorithms

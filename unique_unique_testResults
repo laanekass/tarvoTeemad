@@ -1,0 +1,268 @@
+VÄIKE TREENING VS VÄIKE TEST 
+timeStamp: 2012-09-30 21:06:13.624
+TRAIN DECISION TABLE
+Correct: 140.0
+InCorrect: 30.0
+Unclassified: 0.0
+fMeasure(0): 0.8872180451127819
+fMeasure(1): 0.5945945945945945
+Confusion matrix: 
+118.0; 13.0; 
+17.0; 22.0; 
+
+
+*************************************************
+
+timeStamp: 2012-09-30 21:06:14.341
+TRAIN JRIP
+Correct: 133.0
+InCorrect: 37.0
+Unclassified: 0.0
+fMeasure(0): 0.8477366255144032
+fMeasure(1): 0.6185567010309279
+Confusion matrix: 
+103.0; 28.0; 
+9.0; 30.0; 
+
+
+*************************************************
+
+timeStamp: 2012-09-30 21:06:14.365
+TRAIN ONER
+Correct: 116.0
+InCorrect: 54.0
+Unclassified: 0.0
+fMeasure(0): 0.7522935779816514
+fMeasure(1): 0.5573770491803278
+Confusion matrix: 
+82.0; 49.0; 
+5.0; 34.0; 
+
+
+*************************************************
+
+timeStamp: 2012-09-30 21:06:14.37
+TRAIN PART
+Correct: 139.0
+InCorrect: 31.0
+Unclassified: 0.0
+fMeasure(0): 0.8812260536398467
+fMeasure(1): 0.6075949367088608
+Confusion matrix: 
+115.0; 16.0; 
+15.0; 24.0; 
+
+
+*************************************************
+
+timeStamp: 2012-09-30 21:06:14.414
+TRAIN ZEROR
+Correct: 131.0
+InCorrect: 39.0
+Unclassified: 0.0
+fMeasure(0): 0.8704318936877077
+fMeasure(1): 0.0
+Confusion matrix: 
+131.0; 0.0; 
+39.0; 0.0; 
+
+
+*************************************************
+
+timeStamp: 2012-09-30 21:06:14.416
+TRAIN CONJUNCIVE RULE
+Correct: 131.0
+InCorrect: 39.0
+Unclassified: 0.0
+fMeasure(0): 0.8704318936877077
+fMeasure(1): 0.0
+Confusion matrix: 
+131.0; 0.0; 
+39.0; 0.0; 
+
+
+*************************************************
+
+timeStamp: 2012-09-30 21:06:14.432
+TRAIN DTNB
+Correct: 128.0
+InCorrect: 42.0
+Unclassified: 0.0
+fMeasure(0): 0.8173913043478261
+fMeasure(1): 0.6181818181818182
+Confusion matrix: 
+94.0; 37.0; 
+5.0; 34.0; 
+
+
+*************************************************
+
+timeStamp: 2012-09-30 21:06:14.502
+TRAIN NNGE
+Correct: 124.0
+InCorrect: 46.0
+Unclassified: 0.0
+fMeasure(0): 0.8114754098360656
+fMeasure(1): 0.5208333333333334
+Confusion matrix: 
+99.0; 32.0; 
+14.0; 25.0; 
+
+
+*************************************************
+
+timeStamp: 2012-09-30 21:06:14.58
+TRAIN RIDOR
+Correct: 131.0
+InCorrect: 39.0
+Unclassified: 0.0
+fMeasure(0): 0.8528301886792453
+fMeasure(1): 0.48000000000000004
+Confusion matrix: 
+113.0; 18.0; 
+21.0; 18.0; 
+
+
+*************************************************
+
+timeStamp: 2012-09-30 21:06:14.596
+TRAIN DECISIONSTUMP
+Correct: 116.0
+InCorrect: 54.0
+Unclassified: 0.0
+fMeasure(0): 0.7522935779816514
+fMeasure(1): 0.5573770491803278
+Confusion matrix: 
+82.0; 49.0; 
+5.0; 34.0; 
+
+
+*************************************************
+
+timeStamp: 2012-09-30 21:06:14.599
+TRAIN J48
+Correct: 140.0
+InCorrect: 30.0
+Unclassified: 0.0
+fMeasure(0): 0.8872180451127819
+fMeasure(1): 0.5945945945945945
+Confusion matrix: 
+118.0; 13.0; 
+17.0; 22.0; 
+
+
+*************************************************
+
+timeStamp: 2012-09-30 21:06:14.61
+TRAIN RANDOMFOREST
+Correct: 124.0
+InCorrect: 46.0
+Unclassified: 0.0
+fMeasure(0): 0.8083333333333333
+fMeasure(1): 0.5399999999999999
+Confusion matrix: 
+97.0; 34.0; 
+12.0; 27.0; 
+
+
+*************************************************
+
+timeStamp: 2012-09-30 21:06:14.652
+TRAIN RANDOMTREE
+Correct: 138.0
+InCorrect: 32.0
+Unclassified: 0.0
+fMeasure(0): 0.880597014925373
+fMeasure(1): 0.5555555555555556
+Confusion matrix: 
+118.0; 13.0; 
+19.0; 20.0; 
+
+
+*************************************************
+
+timeStamp: 2012-09-30 21:06:14.653
+TRAIN REPTREE
+Correct: 134.0
+InCorrect: 36.0
+Unclassified: 0.0
+fMeasure(0): 0.8571428571428571
+fMeasure(1): 0.5909090909090909
+Confusion matrix: 
+108.0; 23.0; 
+13.0; 26.0; 
+
+
+*************************************************
+
+timeStamp: 2012-09-30 21:06:14.661
+TRAIN ID3
+Correct: 130.0
+InCorrect: 36.0
+Unclassified: 4.0
+fMeasure(0): 0.8646616541353384
+fMeasure(1): 0.4545454545454546
+Confusion matrix: 
+115.0; 14.0; 
+22.0; 15.0; 
+
+
+*************************************************
+
+timeStamp: 2012-09-30 21:06:14.67
+TRAIN J48GRAFT
+Correct: 140.0
+InCorrect: 30.0
+Unclassified: 0.0
+fMeasure(0): 0.8872180451127819
+fMeasure(1): 0.5945945945945945
+Confusion matrix: 
+118.0; 13.0; 
+17.0; 22.0; 
+
+
+*************************************************
+
+timeStamp: 2012-09-30 21:06:14.683
+TRAIN LADTREE
+Correct: 133.0
+InCorrect: 37.0
+Unclassified: 0.0
+fMeasure(0): 0.8425531914893617
+fMeasure(1): 0.6476190476190476
+Confusion matrix: 
+99.0; 32.0; 
+5.0; 34.0; 
+
+
+*************************************************
+
+timeStamp: 2012-09-30 21:06:14.753
+TRAIN NBTREE
+Correct: 133.0
+InCorrect: 37.0
+Unclassified: 0.0
+fMeasure(0): 0.8502024291497975
+fMeasure(1): 0.6021505376344085
+Confusion matrix: 
+105.0; 26.0; 
+11.0; 28.0; 
+
+
+*************************************************
+
+timeStamp: 2012-09-30 21:06:15.299
+TRAIN SIMPLECART
+Correct: 133.0
+InCorrect: 37.0
+Unclassified: 0.0
+fMeasure(0): 0.8644688644688645
+fMeasure(1): 0.44776119402985076
+Confusion matrix: 
+118.0; 13.0; 
+24.0; 15.0; 
+
+
+*************************************************
+
+timeStamp: 2012-09-30 21:06:15.376

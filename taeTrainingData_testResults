@@ -1,0 +1,435 @@
+taeTrainingData taeTestingData.txt 
+timeStamp: 2012-10-20 22:43:25.534
+TRAIN TTCLASSIFIER
+Correct: 9
+InCorrect: 6
+Unclassified: 35
+fMeasure(0): 0.6666666666666665
+fMeasure(1): 0.5714285714285715
+fMeasure(2): 0.5714285714285714
+Confusion matrix data: 
+3.0; 0.0; 2.0; 
+0.0; 2.0; 1.0; 
+1.0; 2.0; 4.0; 
+*************************************************
+
+taeTrainingData taeUnseenTests 
+timeStamp: 2012-10-20 22:43:26.019
+train Decision Table: No model built yet.
+Correct: 14.0
+InCorrect: 21.0
+Unclassified: 0.0
+fMeasure(0): 0.5
+fMeasure(1): 0.0
+fMeasure(2): 0.5333333333333333
+Confusion matrix: 
+10.0; 0.0; 0.0; 
+14.0; 0.0; 1.0; 
+6.0; 0.0; 4.0; 
+
+
+Summarized confusion matrix: 
+13.0; 0.0; 2.0; 
+14.0; 2.0; 2.0; 
+7.0; 2.0; 8.0; 
+fMeasure(0): 0.5306122448979592
+fMeasure(1): 0.1818181818181818
+fMeasure(2): 0.5517241379310345
+*************************************************
+
+timeStamp: 2012-10-20 22:43:26.039
+train JRIP: No model built yet.
+Correct: 11.0
+InCorrect: 24.0
+Unclassified: 0.0
+fMeasure(0): 0.13333333333333333
+fMeasure(1): 0.125
+fMeasure(2): 0.4615384615384615
+Confusion matrix: 
+1.0; 0.0; 9.0; 
+3.0; 1.0; 11.0; 
+1.0; 0.0; 9.0; 
+
+
+Summarized confusion matrix: 
+4.0; 0.0; 11.0; 
+3.0; 3.0; 12.0; 
+2.0; 2.0; 13.0; 
+fMeasure(0): 0.33333333333333337
+fMeasure(1): 0.2608695652173913
+fMeasure(2): 0.490566037735849
+*************************************************
+
+timeStamp: 2012-10-20 22:43:26.069
+train OneR: No model built yet.
+Correct: 13.0
+InCorrect: 22.0
+Unclassified: 0.0
+fMeasure(0): 0.4
+fMeasure(1): 0.11764705882352941
+fMeasure(2): 0.5555555555555556
+Confusion matrix: 
+7.0; 1.0; 2.0; 
+13.0; 1.0; 1.0; 
+5.0; 0.0; 5.0; 
+
+
+Summarized confusion matrix: 
+10.0; 1.0; 4.0; 
+13.0; 3.0; 2.0; 
+6.0; 2.0; 9.0; 
+fMeasure(0): 0.4545454545454545
+fMeasure(1): 0.25
+fMeasure(2): 0.5625
+*************************************************
+
+timeStamp: 2012-10-20 22:43:26.069
+train No classifier built
+Correct: 11.0
+InCorrect: 24.0
+Unclassified: 0.0
+fMeasure(0): 0.37837837837837834
+fMeasure(1): 0.11764705882352941
+fMeasure(2): 0.37499999999999994
+Confusion matrix: 
+7.0; 1.0; 2.0; 
+13.0; 1.0; 1.0; 
+7.0; 0.0; 3.0; 
+
+
+Summarized confusion matrix: 
+10.0; 1.0; 4.0; 
+13.0; 3.0; 2.0; 
+8.0; 2.0; 7.0; 
+fMeasure(0): 0.4347826086956521
+fMeasure(1): 0.25
+fMeasure(2): 0.4666666666666667
+*************************************************
+
+timeStamp: 2012-10-20 22:43:26.083
+train ZeroR: No model built yet.
+Correct: 10.0
+InCorrect: 25.0
+Unclassified: 0.0
+fMeasure(0): 0.4444444444444445
+fMeasure(1): 0.0
+fMeasure(2): 0.0
+Confusion matrix: 
+10.0; 0.0; 0.0; 
+15.0; 0.0; 0.0; 
+10.0; 0.0; 0.0; 
+
+
+Summarized confusion matrix: 
+13.0; 0.0; 2.0; 
+15.0; 2.0; 1.0; 
+11.0; 2.0; 4.0; 
+fMeasure(0): 0.48148148148148145
+fMeasure(1): 0.1818181818181818
+fMeasure(2): 0.3333333333333333
+*************************************************
+
+timeStamp: 2012-10-20 22:43:26.088
+train 
+
+Single conjunctive rule learner:
+--------------------------------
+null
+Correct: 13.0
+InCorrect: 22.0
+Unclassified: 0.0
+fMeasure(0): 0.4878048780487805
+fMeasure(1): 0.0
+fMeasure(2): 0.4285714285714285
+Confusion matrix: 
+10.0; 0.0; 0.0; 
+14.0; 0.0; 1.0; 
+7.0; 0.0; 3.0; 
+
+
+Summarized confusion matrix: 
+13.0; 0.0; 2.0; 
+14.0; 2.0; 2.0; 
+8.0; 2.0; 7.0; 
+fMeasure(0): 0.52
+fMeasure(1): 0.1818181818181818
+fMeasure(2): 0.5
+*************************************************
+
+timeStamp: 2012-10-20 22:43:26.107
+train Decision Table: No model built yet.
+Correct: 18.0
+InCorrect: 17.0
+Unclassified: 0.0
+fMeasure(0): 0.4347826086956522
+fMeasure(1): 0.5185185185185186
+fMeasure(2): 0.6
+Confusion matrix: 
+5.0; 3.0; 2.0; 
+6.0; 7.0; 2.0; 
+2.0; 2.0; 6.0; 
+
+
+Summarized confusion matrix: 
+8.0; 3.0; 4.0; 
+6.0; 9.0; 3.0; 
+3.0; 4.0; 10.0; 
+fMeasure(0): 0.5
+fMeasure(1): 0.5294117647058824
+fMeasure(2): 0.5882352941176471
+*************************************************
+
+timeStamp: 2012-10-20 22:43:26.147
+train RIpple DOwn Rule Learner(Ridor): No model built yet.
+Correct: 14.0
+InCorrect: 21.0
+Unclassified: 0.0
+fMeasure(0): 0.5
+fMeasure(1): 0.0
+fMeasure(2): 0.5333333333333333
+Confusion matrix: 
+10.0; 0.0; 0.0; 
+14.0; 0.0; 1.0; 
+6.0; 0.0; 4.0; 
+
+
+Summarized confusion matrix: 
+13.0; 0.0; 2.0; 
+14.0; 2.0; 2.0; 
+7.0; 2.0; 8.0; 
+fMeasure(0): 0.5306122448979592
+fMeasure(1): 0.1818181818181818
+fMeasure(2): 0.5517241379310345
+*************************************************
+
+timeStamp: 2012-10-20 22:43:26.157
+train Decision Stump: No model built yet.
+Correct: 12.0
+InCorrect: 23.0
+Unclassified: 0.0
+fMeasure(0): 0.4651162790697675
+fMeasure(1): 0.0
+fMeasure(2): 0.33333333333333337
+Confusion matrix: 
+10.0; 0.0; 0.0; 
+15.0; 0.0; 0.0; 
+8.0; 0.0; 2.0; 
+
+
+Summarized confusion matrix: 
+13.0; 0.0; 2.0; 
+15.0; 2.0; 1.0; 
+9.0; 2.0; 6.0; 
+fMeasure(0): 0.5000000000000001
+fMeasure(1): 0.1818181818181818
+fMeasure(2): 0.46153846153846156
+*************************************************
+
+timeStamp: 2012-10-20 22:43:26.157
+train No classifier built
+Correct: 13.0
+InCorrect: 22.0
+Unclassified: 0.0
+fMeasure(0): 0.4
+fMeasure(1): 0.11764705882352941
+fMeasure(2): 0.5555555555555556
+Confusion matrix: 
+7.0; 1.0; 2.0; 
+13.0; 1.0; 1.0; 
+5.0; 0.0; 5.0; 
+
+
+Summarized confusion matrix: 
+10.0; 1.0; 4.0; 
+13.0; 3.0; 2.0; 
+6.0; 2.0; 9.0; 
+fMeasure(0): 0.4545454545454545
+fMeasure(1): 0.25
+fMeasure(2): 0.5625
+*************************************************
+
+timeStamp: 2012-10-20 22:43:26.159
+train Random forest not built yet
+Correct: 15.0
+InCorrect: 20.0
+Unclassified: 0.0
+fMeasure(0): 0.45454545454545453
+fMeasure(1): 0.4444444444444445
+fMeasure(2): 0.380952380952381
+Confusion matrix: 
+5.0; 2.0; 3.0; 
+5.0; 6.0; 4.0; 
+2.0; 4.0; 4.0; 
+
+
+Summarized confusion matrix: 
+8.0; 2.0; 5.0; 
+5.0; 8.0; 5.0; 
+3.0; 6.0; 8.0; 
+fMeasure(0): 0.5161290322580646
+fMeasure(1): 0.47058823529411764
+fMeasure(2): 0.45714285714285713
+*************************************************
+
+timeStamp: 2012-10-20 22:43:26.181
+train RandomTree: no model has been built yet.
+Correct: 18.0
+InCorrect: 17.0
+Unclassified: 0.0
+fMeasure(0): 0.5
+fMeasure(1): 0.606060606060606
+fMeasure(2): 0.30769230769230765
+Confusion matrix: 
+6.0; 3.0; 1.0; 
+5.0; 10.0; 0.0; 
+3.0; 5.0; 2.0; 
+
+
+Summarized confusion matrix: 
+9.0; 3.0; 3.0; 
+5.0; 12.0; 1.0; 
+4.0; 7.0; 6.0; 
+fMeasure(0): 0.5454545454545454
+fMeasure(1): 0.6
+fMeasure(2): 0.4444444444444445
+*************************************************
+
+timeStamp: 2012-10-20 22:43:26.182
+train REPTree: No model built yet.
+Correct: 13.0
+InCorrect: 22.0
+Unclassified: 0.0
+fMeasure(0): 0.4
+fMeasure(1): 0.11764705882352941
+fMeasure(2): 0.5555555555555556
+Confusion matrix: 
+7.0; 1.0; 2.0; 
+13.0; 1.0; 1.0; 
+5.0; 0.0; 5.0; 
+
+
+Summarized confusion matrix: 
+10.0; 1.0; 4.0; 
+13.0; 3.0; 2.0; 
+6.0; 2.0; 9.0; 
+fMeasure(0): 0.4545454545454545
+fMeasure(1): 0.25
+fMeasure(2): 0.5625
+*************************************************
+
+timeStamp: 2012-10-20 22:43:26.195
+train Id3: No model built yet.
+Correct: 10.0
+InCorrect: 9.0
+Unclassified: 16.0
+fMeasure(0): 0.4615384615384615
+fMeasure(1): 0.4615384615384615
+fMeasure(2): 0.6666666666666666
+Confusion matrix: 
+3.0; 1.0; 2.0; 
+4.0; 3.0; 0.0; 
+0.0; 2.0; 4.0; 
+
+
+Summarized confusion matrix: 
+6.0; 1.0; 4.0; 
+4.0; 5.0; 1.0; 
+1.0; 4.0; 8.0; 
+fMeasure(0): 0.5454545454545454
+fMeasure(1): 0.5
+fMeasure(2): 0.6153846153846154
+*************************************************
+
+timeStamp: 2012-10-20 22:43:26.198
+train No classifier built
+Correct: 13.0
+InCorrect: 22.0
+Unclassified: 0.0
+fMeasure(0): 0.37499999999999994
+fMeasure(1): 0.11764705882352941
+fMeasure(2): 0.5714285714285713
+Confusion matrix: 
+6.0; 1.0; 3.0; 
+12.0; 1.0; 2.0; 
+4.0; 0.0; 6.0; 
+
+
+Summarized confusion matrix: 
+9.0; 1.0; 5.0; 
+12.0; 3.0; 3.0; 
+5.0; 2.0; 10.0; 
+fMeasure(0): 0.43902439024390244
+fMeasure(1): 0.25
+fMeasure(2): 0.5714285714285715
+*************************************************
+
+timeStamp: 2012-10-20 22:43:26.235
+train weka.classifiers.trees.LADTree not built yet
+Correct: 15.0
+InCorrect: 20.0
+Unclassified: 0.0
+fMeasure(0): 0.5263157894736842
+fMeasure(1): 0.0
+fMeasure(2): 0.625
+Confusion matrix: 
+10.0; 0.0; 0.0; 
+14.0; 0.0; 1.0; 
+4.0; 1.0; 5.0; 
+
+
+Summarized confusion matrix: 
+13.0; 0.0; 2.0; 
+14.0; 2.0; 2.0; 
+5.0; 3.0; 9.0; 
+fMeasure(0): 0.5531914893617021
+fMeasure(1): 0.1739130434782609
+fMeasure(2): 0.5999999999999999
+*************************************************
+
+timeStamp: 2012-10-20 22:43:26.337
+train No classifier built
+Correct: 19.0
+InCorrect: 16.0
+Unclassified: 0.0
+fMeasure(0): 0.4210526315789474
+fMeasure(1): 0.56
+fMeasure(2): 0.6153846153846154
+Confusion matrix: 
+4.0; 2.0; 4.0; 
+4.0; 7.0; 4.0; 
+1.0; 1.0; 8.0; 
+
+
+Summarized confusion matrix: 
+7.0; 2.0; 6.0; 
+4.0; 9.0; 5.0; 
+2.0; 3.0; 12.0; 
+fMeasure(0): 0.5
+fMeasure(1): 0.5625000000000001
+fMeasure(2): 0.6
+*************************************************
+
+timeStamp: 2012-10-20 22:43:26.423
+train CART Tree: No model built yet.
+Correct: 20.0
+InCorrect: 15.0
+Unclassified: 0.0
+fMeasure(0): 0.5925925925925927
+fMeasure(1): 0.6363636363636364
+fMeasure(2): 0.47619047619047616
+Confusion matrix: 
+8.0; 0.0; 2.0; 
+4.0; 7.0; 4.0; 
+5.0; 0.0; 5.0; 
+
+
+Summarized confusion matrix: 
+11.0; 0.0; 4.0; 
+4.0; 9.0; 5.0; 
+6.0; 2.0; 9.0; 
+fMeasure(0): 0.611111111111111
+fMeasure(1): 0.6206896551724137
+fMeasure(2): 0.5142857142857143
+*************************************************
+
+timeStamp: 2012-10-20 22:43:26.524

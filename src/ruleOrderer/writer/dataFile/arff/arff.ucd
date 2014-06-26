@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="arff" size="1048,739" id="ruleOrderer.writer.dataFile.arff" metadata="uml2-1.0" initialized="true" scrolledY="8" tag="1000" key="32303037303533312D313030302052756C654F7264657265722F6568656C6D6169">
+  <children xsi:type="editmodel:ClassEditModel" name="WriteArffDataFile" location="50,50" size="226,175" id="ruleOrderer.writer.dataFile.arff/WriteArffDataFile">
+    <children xsi:type="editmodel:CompartmentEditModel" size="203,108">
+      <children xsi:type="editmodel:AttributeEditModel" name="arffFileData" id="ruleOrderer.writer.dataFile.arff/WriteArffDataFile#arffFileData"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="arffFileDataArray" id="ruleOrderer.writer.dataFile.arff/WriteArffDataFile#arffFileDataArray"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="wholeData" id="ruleOrderer.writer.dataFile.arff/WriteArffDataFile#wholeData"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="wholeDataArray" id="ruleOrderer.writer.dataFile.arff/WriteArffDataFile#wholeDataArray"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="wholeHeader" id="ruleOrderer.writer.dataFile.arff/WriteArffDataFile#wholeHeader"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="wholeHeaderArray" id="ruleOrderer.writer.dataFile.arff/WriteArffDataFile#wholeHeaderArray"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="103,18">
+      <children xsi:type="editmodel:MethodEditModel" name="setArffFileData" id="ruleOrderer.writer.dataFile.arff/WriteArffDataFile#setArffFileData(LruleOrderer.dataTypes.arff.ArffData;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="ruleOrderer.writer.dataFile.arff/WriteArffDataFile-Soyatec::Import->ruleOrderer.dataTypes.arff/ArffData*ruleOrderer.writer.dataFile.arff/WriteArffDataFile-Standard::Call->ruleOrderer.dataTypes.arff/ArffData" source="//@children.0" target="//@children.1" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="112,175" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="112,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="ruleOrderer.writer.dataFile.arff/WriteArffDataFile-Standard::Instantiate->ruleOrderer.dataTypes.arff/ArffHeaderAttribute*ruleOrderer.writer.dataFile.arff/WriteArffDataFile-Standard::Call->ruleOrderer.dataTypes.arff/ArffHeaderAttribute*ruleOrderer.writer.dataFile.arff/WriteArffDataFile-Soyatec::Import->ruleOrderer.dataTypes.arff/ArffHeaderAttribute" source="//@children.0" target="//@children.2" targetEnd="//@children.0/@sourceConnections.1/@children.2" label="//@children.0/@sourceConnections.1/@children.0" sourceEnd="//@children.0/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Call, Import»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="212,175" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="18,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="ruleOrderer.writer.dataFile.arff/WriteArffDataFile-Soyatec::Import->ruleOrderer.dataTypes.arff/ArffValues*ruleOrderer.writer.dataFile.arff/WriteArffDataFile-Standard::Call->ruleOrderer.dataTypes.arff/ArffValues" source="//@children.0" target="//@children.3" targetEnd="//@children.0/@sourceConnections.2/@children.2" label="//@children.0/@sourceConnections.2/@children.0" sourceEnd="//@children.0/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="226,130" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,45"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="ruleOrderer.writer.dataFile.arff/WriteArffDataFile-Standard::Derive->ruleOrderer.writer.dataFile/WriteToFile" source="//@children.0" target="//@children.4" targetEnd="//@children.0/@sourceConnections.3/@children.2" label="//@children.0/@sourceConnections.3/@children.0" sourceEnd="//@children.0/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Derive»" size="43,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="226,24" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,74"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.0" name="ArffData" location="50,324" size="252,243" id="ruleOrderer.dataTypes.arff/ArffData">
+    <children xsi:type="editmodel:CompartmentEditModel" size="229,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="header" id="ruleOrderer.dataTypes.arff/ArffData#header"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="headerList" id="ruleOrderer.dataTypes.arff/ArffData#headerList"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="value" id="ruleOrderer.dataTypes.arff/ArffData#value"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="valuesList" id="ruleOrderer.dataTypes.arff/ArffData#valuesList"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="117,108">
+      <children xsi:type="editmodel:MethodEditModel" name="getArffHeaderList" id="ruleOrderer.dataTypes.arff/ArffData#getArffHeaderList()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getArffValuesList" id="ruleOrderer.dataTypes.arff/ArffData#getArffValuesList()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setArffHeader" id="ruleOrderer.dataTypes.arff/ArffData#setArffHeader(LruleOrderer.dataTypes.arff.ArffHeaderAttribute;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setArffHeaderList" id="ruleOrderer.dataTypes.arff/ArffData#setArffHeaderList(Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setArffValue" id="ruleOrderer.dataTypes.arff/ArffData#setArffValue(LruleOrderer.dataTypes.arff.ArffValues;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setArffValuesList" id="ruleOrderer.dataTypes.arff/ArffData#setArffValuesList(Ljava.util.ArrayList;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="ruleOrderer.dataTypes.arff/ArffData-Soyatec::Import->ruleOrderer.dataTypes.arff/ArffHeaderAttribute" source="//@children.1" target="//@children.2" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="252,142" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,76"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="ruleOrderer.dataTypes.arff/ArffData-Soyatec::Import->ruleOrderer.dataTypes.arff/ArffValues" source="//@children.1" target="//@children.3" targetEnd="//@children.1/@sourceConnections.1/@children.2" label="//@children.1/@sourceConnections.1/@children.0" sourceEnd="//@children.1/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="252,38" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,130"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.1 //@children.1/@sourceConnections.0" name="ArffHeaderAttribute" location="430,390" size="206,153" id="ruleOrderer.dataTypes.arff/ArffHeaderAttribute">
+    <children xsi:type="editmodel:CompartmentEditModel" size="183,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="attributeName" id="ruleOrderer.dataTypes.arff/ArffHeaderAttribute#attributeName"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="attributeType" id="ruleOrderer.dataTypes.arff/ArffHeaderAttribute#attributeType"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="attributeValues" id="ruleOrderer.dataTypes.arff/ArffHeaderAttribute#attributeValues"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="110,36">
+      <children xsi:type="editmodel:MethodEditModel" name="getAttributeType" id="ruleOrderer.dataTypes.arff/ArffHeaderAttribute#getAttributeType()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setAttributeType" id="ruleOrderer.dataTypes.arff/ArffHeaderAttribute#setAttributeType(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.2 //@children.1/@sourceConnections.1" name="ArffValues" location="450,135" size="165,153" id="ruleOrderer.dataTypes.arff/ArffValues">
+    <children xsi:type="editmodel:CompartmentEditModel" size="142,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="data" id="ruleOrderer.dataTypes.arff/ArffValues#data"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="value" id="ruleOrderer.dataTypes.arff/ArffValues#value"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="values" id="ruleOrderer.dataTypes.arff/ArffValues#values"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="73,36">
+      <children xsi:type="editmodel:MethodEditModel" name="getValue" id="ruleOrderer.dataTypes.arff/ArffValues#getValue()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setValue" id="ruleOrderer.dataTypes.arff/ArffValues#setValue(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.3" name="WriteToFile" location="450,0" size="151,99" id="ruleOrderer.writer.dataFile/WriteToFile">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="87,36">
+      <children xsi:type="editmodel:MethodEditModel" name="WriteToFile" id="ruleOrderer.writer.dataFile/WriteToFile#WriteToFile()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="creatOutput" id="ruleOrderer.writer.dataFile/WriteToFile#creatOutput(Ljava.lang.String;Ljava.util.ArrayList;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" interactive="false" level="-1" showScope="InPackage" properties="wireOptions=1;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

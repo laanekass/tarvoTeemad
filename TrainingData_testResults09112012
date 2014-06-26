@@ -1,0 +1,47 @@
+Correct: 455.0
+InCorrect: 38.0
+Unclassified: 0.0
+fMeasure(0): 0.95662100456621
+fMeasure(1): 0.6545454545454547
+Confusion matrix: 
+419.0; 9.0; 
+29.0; 36.0; 
+
+
+
+j48
+Correct: 455.0
+InCorrect: 38.0
+Unclassified: 0.0
+fMeasure(0): 0.956120092378753
+fMeasure(1): 0.6833333333333332
+Confusion matrix: 
+414.0; 14.0; 
+24.0; 41.0; 
+
+
+
+reeglid järjestatud õiged/(õiged+valed) suhte järgiTrainingData 
+timeStamp: 2012-11-09 14:51:17.72
+Correct: 455
+InCorrect: 38
+Unclassified: 0
+fMeasure(0): 0.956120092378753
+fMeasure(1): 0.6833333333333332
+Confusion matrix data: 
+414.0; 24.0; 
+14.0; 41.0; 
+*************************************************
+
+Miinustehnikaga järjestatud reeglidTrainingData 
+timeStamp: 2012-11-09 14:51:17.769
+Correct: 428
+InCorrect: 65
+Unclassified: 0
+fMeasure(0): 0.9289617486338797
+fMeasure(1): 0.08450704225352113
+Confusion matrix data: 
+425.0; 62.0; 
+3.0; 3.0; 
+*************************************************
+

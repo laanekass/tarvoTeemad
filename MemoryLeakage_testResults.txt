@@ -1,0 +1,509 @@
+uniqueTraining2 uniqueTesting2 
+timeStamp: 2012-10-21 20:39:57.383
+train Decision Table: No model built yet.
+Correct: 452.0
+InCorrect: 41.0
+Unclassified: 0.0
+fMeasure(0): 0.9528193325661681
+fMeasure(1): 0.6495726495726495
+Confusion matrix: 
+414.0; 14.0; 
+27.0; 38.0; 
+
+
+*************************************************
+uniqueTraining2 testing2 
+Correct: 158572.0
+InCorrect: 465.0
+Unclassified: 0.0
+fMeasure(0): 0.9985286719128215
+fMeasure(1): 0.7712739793408755
+Confusion matrix: 
+157788.0; 95.0; 
+370.0; 784.0; 
+
+
+*************************************************
+*************************************************
+
+uniqueTraining2 uniqueTesting2 
+timeStamp: 2012-10-21 20:40:02.786
+train JRIP: No model built yet.
+Correct: 441.0
+InCorrect: 52.0
+Unclassified: 0.0
+fMeasure(0): 0.9406392694063926
+fMeasure(1): 0.5272727272727272
+Confusion matrix: 
+412.0; 16.0; 
+36.0; 29.0; 
+
+
+*************************************************
+uniqueTraining2 testing2 
+Correct: 158380.0
+InCorrect: 657.0
+Unclassified: 0.0
+fMeasure(0): 0.9979228777469704
+fMeasure(1): 0.6290231507622812
+Confusion matrix: 
+157823.0; 60.0; 
+597.0; 557.0; 
+
+
+*************************************************
+*************************************************
+
+uniqueTraining2 uniqueTesting2 
+timeStamp: 2012-10-21 20:40:05.688
+train OneR: No model built yet.
+Correct: 448.0
+InCorrect: 45.0
+Unclassified: 0.0
+fMeasure(0): 0.9477351916376306
+fMeasure(1): 0.64
+Confusion matrix: 
+408.0; 20.0; 
+25.0; 40.0; 
+
+
+*************************************************
+uniqueTraining2 testing2 
+Correct: 158369.0
+InCorrect: 668.0
+Unclassified: 0.0
+fMeasure(0): 0.9978849514931989
+fMeasure(1): 0.7020517395182873
+Confusion matrix: 
+157582.0; 301.0; 
+367.0; 787.0; 
+
+
+*************************************************
+*************************************************
+
+uniqueTraining2 uniqueTesting2 
+timeStamp: 2012-10-21 20:40:07.986
+train No classifier built
+Correct: 441.0
+InCorrect: 52.0
+Unclassified: 0.0
+fMeasure(0): 0.9403669724770642
+fMeasure(1): 0.543859649122807
+Confusion matrix: 
+410.0; 18.0; 
+34.0; 31.0; 
+
+
+*************************************************
+uniqueTraining2 testing2 
+Correct: 158171.0
+InCorrect: 866.0
+Unclassified: 0.0
+fMeasure(0): 0.9972600485977524
+fMeasure(1): 0.5691542288557214
+Confusion matrix: 
+157599.0; 284.0; 
+582.0; 572.0; 
+
+
+*************************************************
+*************************************************
+
+uniqueTraining2 uniqueTesting2 
+timeStamp: 2012-10-21 20:40:11.172
+train ZeroR: No model built yet.
+Correct: 428.0
+InCorrect: 65.0
+Unclassified: 0.0
+fMeasure(0): 0.9294245385450598
+fMeasure(1): 0.0
+Confusion matrix: 
+428.0; 0.0; 
+65.0; 0.0; 
+
+
+*************************************************
+uniqueTraining2 testing2 
+Correct: 157883.0
+InCorrect: 1154.0
+Unclassified: 0.0
+fMeasure(0): 0.9963587025116749
+fMeasure(1): 0.0
+Confusion matrix: 
+157883.0; 0.0; 
+1154.0; 0.0; 
+
+
+*************************************************
+*************************************************
+
+uniqueTraining2 uniqueTesting2 
+timeStamp: 2012-10-21 20:40:13.46
+train 
+
+Single conjunctive rule learner:
+--------------------------------
+null
+Correct: 428.0
+InCorrect: 65.0
+Unclassified: 0.0
+fMeasure(0): 0.9294245385450598
+fMeasure(1): 0.0
+Confusion matrix: 
+428.0; 0.0; 
+65.0; 0.0; 
+
+
+*************************************************
+uniqueTraining2 testing2 
+Correct: 157883.0
+InCorrect: 1154.0
+Unclassified: 0.0
+fMeasure(0): 0.9963587025116749
+fMeasure(1): 0.0
+Confusion matrix: 
+157883.0; 0.0; 
+1154.0; 0.0; 
+
+
+*************************************************
+*************************************************
+
+uniqueTraining2 uniqueTesting2 
+timeStamp: 2012-10-21 20:40:15.89
+train Decision Table: No model built yet.
+Correct: 449.0
+InCorrect: 44.0
+Unclassified: 0.0
+fMeasure(0): 0.94919168591224
+fMeasure(1): 0.6333333333333333
+Confusion matrix: 
+411.0; 17.0; 
+27.0; 38.0; 
+
+
+*************************************************
+uniqueTraining2 testing2 
+Correct: 158568.0
+InCorrect: 469.0
+Unclassified: 0.0
+fMeasure(0): 0.9985159965447084
+fMeasure(1): 0.7697594501718213
+Confusion matrix: 
+157784.0; 99.0; 
+370.0; 784.0; 
+
+
+*************************************************
+*************************************************
+
+uniqueTraining2 uniqueTesting2 
+timeStamp: 2012-10-21 20:40:20.663
+train RIpple DOwn Rule Learner(Ridor): No model built yet.
+Correct: 455.0
+InCorrect: 38.0
+Unclassified: 0.0
+fMeasure(0): 0.95662100456621
+fMeasure(1): 0.6545454545454547
+Confusion matrix: 
+419.0; 9.0; 
+29.0; 36.0; 
+
+
+*************************************************
+uniqueTraining2 testing2 
+Correct: 158558.0
+InCorrect: 479.0
+Unclassified: 0.0
+fMeasure(0): 0.9984845560761708
+fMeasure(1): 0.7598997493734335
+Confusion matrix: 
+157800.0; 83.0; 
+396.0; 758.0; 
+
+
+*************************************************
+*************************************************
+
+uniqueTraining2 uniqueTesting2 
+timeStamp: 2012-10-21 20:40:23.021
+train Decision Stump: No model built yet.
+Correct: 428.0
+InCorrect: 65.0
+Unclassified: 0.0
+fMeasure(0): 0.9294245385450598
+fMeasure(1): 0.0
+Confusion matrix: 
+428.0; 0.0; 
+65.0; 0.0; 
+
+
+*************************************************
+uniqueTraining2 testing2 
+Correct: 157883.0
+InCorrect: 1154.0
+Unclassified: 0.0
+fMeasure(0): 0.9963587025116749
+fMeasure(1): 0.0
+Confusion matrix: 
+157883.0; 0.0; 
+1154.0; 0.0; 
+
+
+*************************************************
+*************************************************
+
+uniqueTraining2 uniqueTesting2 
+timeStamp: 2012-10-21 20:40:25.391
+train No classifier built
+Correct: 455.0
+InCorrect: 38.0
+Unclassified: 0.0
+fMeasure(0): 0.956120092378753
+fMeasure(1): 0.6833333333333332
+Confusion matrix: 
+414.0; 14.0; 
+24.0; 41.0; 
+
+
+*************************************************
+uniqueTraining2 testing2 
+Correct: 158773.0
+InCorrect: 264.0
+Unclassified: 0.0
+fMeasure(0): 0.9991639960986485
+fMeasure(1): 0.8845144356955381
+Confusion matrix: 
+157762.0; 121.0; 
+143.0; 1011.0; 
+
+
+*************************************************
+*************************************************
+
+uniqueTraining2 uniqueTesting2 
+timeStamp: 2012-10-21 20:40:27.819
+train Random forest not built yet
+Correct: 421.0
+InCorrect: 72.0
+Unclassified: 0.0
+fMeasure(0): 0.9142857142857143
+fMeasure(1): 0.5068493150684931
+Confusion matrix: 
+384.0; 44.0; 
+28.0; 37.0; 
+
+
+*************************************************
+uniqueTraining2 testing2 
+Correct: 155671.0
+InCorrect: 3366.0
+Unclassified: 0.0
+fMeasure(0): 0.9892520499655146
+fMeasure(1): 0.3127807268272765
+Confusion matrix: 
+154905.0; 2978.0; 
+388.0; 766.0; 
+
+
+*************************************************
+*************************************************
+
+uniqueTraining2 uniqueTesting2 
+timeStamp: 2012-10-21 20:40:33.129
+train RandomTree: no model has been built yet.
+Correct: 444.0
+InCorrect: 49.0
+Unclassified: 0.0
+fMeasure(0): 0.9434832756632063
+fMeasure(1): 0.588235294117647
+Confusion matrix: 
+409.0; 19.0; 
+30.0; 35.0; 
+
+
+*************************************************
+uniqueTraining2 testing2 
+Correct: 158570.0
+InCorrect: 467.0
+Unclassified: 0.0
+fMeasure(0): 0.9985225960549834
+fMeasure(1): 0.7640222334512381
+Confusion matrix: 
+157814.0; 69.0; 
+398.0; 756.0; 
+
+
+*************************************************
+*************************************************
+
+uniqueTraining2 uniqueTesting2 
+timeStamp: 2012-10-21 20:40:36.447
+train REPTree: No model built yet.
+Correct: 443.0
+InCorrect: 50.0
+Unclassified: 0.0
+fMeasure(0): 0.9436936936936936
+fMeasure(1): 0.4897959183673469
+Confusion matrix: 
+419.0; 9.0; 
+41.0; 24.0; 
+
+
+*************************************************
+uniqueTraining2 testing2 
+Correct: 158373.0
+InCorrect: 664.0
+Unclassified: 0.0
+fMeasure(0): 0.9979009793322332
+fMeasure(1): 0.6175115207373273
+Confusion matrix: 
+157837.0; 46.0; 
+618.0; 536.0; 
+
+
+*************************************************
+*************************************************
+
+uniqueTraining2 uniqueTesting2 
+timeStamp: 2012-10-21 20:40:39.559
+train Id3: No model built yet.
+Correct: 432.0
+InCorrect: 53.0
+Unclassified: 8.0
+fMeasure(0): 0.9374262101534829
+fMeasure(1): 0.5691056910569106
+Confusion matrix: 
+397.0; 24.0; 
+29.0; 35.0; 
+
+
+*************************************************
+uniqueTraining2 testing2 
+Correct: 158433.0
+InCorrect: 495.0
+Unclassified: 109.0
+fMeasure(0): 0.998432765646223
+fMeasure(1): 0.7540983606557377
+Confusion matrix: 
+157674.0; 114.0; 
+381.0; 759.0; 
+
+
+*************************************************
+*************************************************
+
+uniqueTraining2 uniqueTesting2 
+timeStamp: 2012-10-21 20:40:42.787
+train No classifier built
+Correct: 455.0
+InCorrect: 38.0
+Unclassified: 0.0
+fMeasure(0): 0.956120092378753
+fMeasure(1): 0.6833333333333332
+Confusion matrix: 
+414.0; 14.0; 
+24.0; 41.0; 
+
+
+*************************************************
+uniqueTraining2 testing2 
+Correct: 158773.0
+InCorrect: 264.0
+Unclassified: 0.0
+fMeasure(0): 0.9991639960986485
+fMeasure(1): 0.8845144356955381
+Confusion matrix: 
+157762.0; 121.0; 
+143.0; 1011.0; 
+
+
+*************************************************
+*************************************************
+
+uniqueTraining2 uniqueTesting2 
+timeStamp: 2012-10-21 20:40:47.617
+train weka.classifiers.trees.LADTree not built yet
+Correct: 441.0
+InCorrect: 52.0
+Unclassified: 0.0
+fMeasure(0): 0.9406392694063926
+fMeasure(1): 0.5272727272727272
+Confusion matrix: 
+412.0; 16.0; 
+36.0; 29.0; 
+
+
+*************************************************
+uniqueTraining2 testing2 
+Correct: 158355.0
+InCorrect: 682.0
+Unclassified: 0.0
+fMeasure(0): 0.9978436691771163
+fMeasure(1): 0.6202672605790647
+Confusion matrix: 
+157798.0; 85.0; 
+597.0; 557.0; 
+
+
+*************************************************
+*************************************************
+
+uniqueTraining2 uniqueTesting2 
+timeStamp: 2012-10-21 20:40:52.158
+train No classifier built
+Correct: 443.0
+InCorrect: 50.0
+Unclassified: 0.0
+fMeasure(0): 0.9417249417249418
+fMeasure(1): 0.609375
+Confusion matrix: 
+404.0; 24.0; 
+26.0; 39.0; 
+
+
+*************************************************
+uniqueTraining2 testing2 
+Correct: 158552.0
+InCorrect: 485.0
+Unclassified: 0.0
+fMeasure(0): 0.9984652821507567
+fMeasure(1): 0.7639902676399025
+Confusion matrix: 
+157767.0; 116.0; 
+369.0; 785.0; 
+
+
+*************************************************
+*************************************************
+
+uniqueTraining2 uniqueTesting2 
+timeStamp: 2012-10-21 20:41:02.224
+train CART Tree: No model built yet.
+Correct: 441.0
+InCorrect: 52.0
+Unclassified: 0.0
+fMeasure(0): 0.9406392694063926
+fMeasure(1): 0.5272727272727272
+Confusion matrix: 
+412.0; 16.0; 
+36.0; 29.0; 
+
+
+*************************************************
+uniqueTraining2 testing2 
+Correct: 158380.0
+InCorrect: 657.0
+Unclassified: 0.0
+fMeasure(0): 0.9979228777469704
+fMeasure(1): 0.6290231507622812
+Confusion matrix: 
+157823.0; 60.0; 
+597.0; 557.0; 
+
+
+*************************************************
+*************************************************
+
+timeStamp: 2012-10-21 20:41:07.99
